@@ -14,7 +14,7 @@ Organism* Nightshade::copy(int x, int y) {
 void Nightshade::printSymbol() {
 	HANDLE baseColor = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(baseColor, 10);
-	cout << "J";
+	cout << "N";
 	SetConsoleTextAttribute(baseColor, 7);
 }
 

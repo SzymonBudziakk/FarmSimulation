@@ -52,7 +52,7 @@ Organism* Turtle::copy(int x, int y) {
 void Turtle::printSymbol() {
 	HANDLE baseColor = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(baseColor, 14);
-	cout << "Z";
+	cout << "T";
 	SetConsoleTextAttribute(baseColor, 7);
 }
 

@@ -14,7 +14,7 @@ Organism* Hogweed::copy(int x, int y) {
 void Hogweed::printSymbol() {
 	HANDLE baseColor = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(baseColor, 10);
-	cout << "B";
+	cout << "H";
 	SetConsoleTextAttribute(baseColor, 7);
 }
 

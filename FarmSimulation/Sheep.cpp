@@ -12,7 +12,7 @@ Organism* Sheep::copy(int x, int y) {
 void Sheep::printSymbol() {
 	HANDLE baseColor = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(baseColor, 14);
-	cout << "O";
+	cout << "S";
 	SetConsoleTextAttribute(baseColor, 7);
 }
 

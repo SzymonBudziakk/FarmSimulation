@@ -30,7 +30,7 @@ void Fox::action(World* worldReference) {
 void Fox::printSymbol() {
 	HANDLE baseColor = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(baseColor, 14);
-	cout << "L";
+	cout << "F";
 	SetConsoleTextAttribute(baseColor, 7);
 }
 

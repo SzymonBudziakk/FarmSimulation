@@ -14,7 +14,7 @@ Organism* Dandelion::copy(int x, int y) {
 void Dandelion::printSymbol() {
 	HANDLE baseColor = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(baseColor, 10);
-	cout << "M";
+	cout << "D";
 	SetConsoleTextAttribute(baseColor, 7);
 }
 
